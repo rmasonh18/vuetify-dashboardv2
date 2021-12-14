@@ -1,8 +1,12 @@
+<!--Code from lesson 1 to be incorporated as component in future lesson note -- does not access .../login -->
+
+
+
 <template>
   <v-app>
-    <v-card width="460px" class=" mx-auto mt-5">
+    <v-card width="500px" class=" mx-auto mt-5">
       <v-card-title class="pb-0">
-        <h1 class="display-1">Jacqueline Taylor & Friends</h1>
+        <h1 class="display-1">Jacqueline Taylor & Friends Login</h1>
       </v-card-title>
       <v-card-text>
         <v-form>
@@ -15,11 +19,11 @@
         </v-form>
       </v-card-text>
       <v-divider></v-divider>
-        <v-card-actions>
-          <v-btn color="success">Register</v-btn>
-          <v-spacer></v-spacer>
-          <v-btn color="info">Login</v-btn>
-        </v-card-actions>
+      <v-card-actions>
+        <v-btn color="success">Register</v-btn>
+        <v-spacer></v-spacer>
+        <v-btn color="info">Login</v-btn>
+      </v-card-actions>
 
 
     </v-card>
@@ -30,14 +34,16 @@
 </template>
 
 <script>
-
-
 export default {
-  name: 'App',
-  data () {
-  return {
-    showPassword: false
+  name: "login"
+  data() {
+    return {
+      showPassword: false
+    }
   }
-  }
-  }
+}
 </script>
+
+<style scoped>
+
+</style>
