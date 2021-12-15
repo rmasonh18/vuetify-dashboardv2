@@ -52,7 +52,7 @@
 
 <script>
 export default {
-  name: "login"
+  name: "Login"
   data() {
     return {
       showPassword: false

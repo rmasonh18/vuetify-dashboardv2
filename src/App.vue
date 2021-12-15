@@ -15,7 +15,9 @@
 <!-- WRAP CONTENT TO REOMOVE OVERLAPPING -->
 
     <v-content>
-    <!-- LOGIN MODULE -->
+
+      <h1>test</h1>
+    <!-- LOGIN MODULE
     <v-card width="460px" class=" mx-auto mt-5">
       <v-card-title class="pb-0">
         <h1 class="display-1">Jacqueline Taylor & Friends</h1>
@@ -40,7 +42,7 @@
 
     </v-card>
 
-<!--end login -->
+end login -->
     </v-content>
 
     <!-- Footer -->
@@ -68,7 +70,7 @@ export default {
   name: 'App',
   data () {
   return {
-    showPassword: false,
+    //showPassword: false,
     links: ['Home', 'Login']
 
   }
