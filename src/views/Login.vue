@@ -1,28 +1,11 @@
-<!--Code from lesson 1 to be incorporated as component in future lesson note -- does not access .../login -->
-
-
+<!--Move Login to Views-->
 
 <template>
-  <v-app>
-    <!--Navbar -->
-    <v-app-bar>
-      <v-toolbar-title>Jacqueline Taylor & Friends</v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-btn>Home</v-btn>
-      <v-btn>Login</v-btn>
 
-    </v-app-bar>
-
-    <!-- end navbar -->
-
-
-
-
-
-    <!-- LOGIN MODULE -->
+    <!-- LOGIN -->
     <v-card width="500px" class=" mx-auto mt-5">
       <v-card-title class="pb-0">
-        <h1 class="display-1">Jacqueline Taylor & Friends Login</h1>
+        <h1 class="display-1">Jacqueline Taylor & Friends</h1>
       </v-card-title>
       <v-card-text>
         <v-form>
@@ -43,16 +26,13 @@
 
 
     </v-card>
-    <!-- end login module -->
+    <!-- end login  -->
 
-
-
-  </v-app>
 </template>
 
 <script>
 export default {
-  name: "Login"
+  name: 'Login',
   data() {
     return {
       showPassword: false
